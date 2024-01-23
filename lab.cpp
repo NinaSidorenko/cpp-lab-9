@@ -10,7 +10,7 @@ template <typename T> unsigned equal (T *arr, T elem, unsigned size)
     {
         if (arr[i] == elem)
             ++ count;
-    }s
+    }
     return count;
 }
 
