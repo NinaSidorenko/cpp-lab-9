@@ -3,14 +3,14 @@
 using std::cout;
 using std::endl;
 
-template <typename type> unsigned equal (type *arr, type elem, unsigned size)
+template <typename T> unsigned equal (T *arr, T elem, unsigned size)
 {
     unsigned count = 0;
     for (unsigned i = 0; i < size; ++i)
     {
         if (arr[i] == elem)
             ++ count;
-    }
+    }s
     return count;
 }
 
