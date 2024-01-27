@@ -1,4 +1,3 @@
-#include <cstddef>
 #include <iostream>
 
 using std::cout;
